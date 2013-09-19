@@ -41,3 +41,20 @@ P1=(0, 4, 6, 2, 5, 3, 1)
 P2=(0, 5, 1, 3, 2, 4, 6)
 a = SCX(costMatrix, P1,P2)
 print a.createSCX()  
+
+# Output
+"""
+Logger Inspecting Nodes : (5, 6 )
+[1, 5]
+Logger Inspecting Nodes : (7, 7 )
+[1, 5, 7]
+Logger Inspecting Nodes : (3, 2 )
+[1, 5, 7, 2]
+Logger Inspecting Nodes : (3, 4 )
+[1, 5, 7, 2, 4]
+Logger Inspecting Nodes : (3, 3 )
+[1, 5, 7, 2, 4, 3]
+Logger Inspecting Nodes : (6, 6 )
+[1, 5, 7, 2, 4, 3, 6]
+[1, 5, 7, 2, 4, 3, 6]
+"""
