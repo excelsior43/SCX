@@ -45,6 +45,8 @@ P2=(0, 5, 1, 3, 2, 4, 6)
 a = SCX(costMatrix, P1,P2)
 print a.createSCX()  
 
+Output : 
+
 Logger Inspecting Nodes : (5, 6 )
 [1, 5]
 Logger Inspecting Nodes : (7, 7 )
