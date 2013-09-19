@@ -1,5 +1,5 @@
 <h3><strong>Genetic Algorithm for the Traveling Salesman Problem <strong></h3>
-<h4>Sequential Constructive Crossover Operator  in python</h4>
+<h4>Sequential Constructive Crossover Algorithm in python</h4>
 
 ===
 
