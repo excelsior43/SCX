@@ -28,3 +28,35 @@ class SequentialConsecutiveCrossover:
         return (list(ar)[ind+1:], [])[ind==self.siz]
     def getResult(self):
         return self.result
+
+"""
+Test data as per the presentation: 
+costMatrix = [
+    [999,75, 99, 9, 35, 63, 8],
+    [51, 999, 86, 46, 88, 29, 20],
+    [100, 5, 999, 16, 28, 35, 28],
+    [20, 45, 11, 999, 59, 53, 49],
+    [86, 63, 33, 65, 999, 76, 72],
+    [36, 53, 89, 31, 21, 999, 52],
+    [58, 31, 43, 67, 52, 60, 999]
+]
+P1=(0, 4, 6, 2, 5, 3, 1)
+P2=(0, 5, 1, 3, 2, 4, 6)
+a = SCX(costMatrix, P1,P2)
+print a.createSCX()  
+
+Logger Inspecting Nodes : (5, 6 )
+[1, 5]
+Logger Inspecting Nodes : (7, 7 )
+[1, 5, 7]
+Logger Inspecting Nodes : (3, 2 )
+[1, 5, 7, 2]
+Logger Inspecting Nodes : (3, 4 )
+[1, 5, 7, 2, 4]
+Logger Inspecting Nodes : (3, 3 )
+[1, 5, 7, 2, 4, 3]
+Logger Inspecting Nodes : (6, 6 )
+[1, 5, 7, 2, 4, 3, 6]
+
+ """   
+ 
