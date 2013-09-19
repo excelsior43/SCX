@@ -3,7 +3,7 @@ Sequential Constructive Crossover Operator  in python
 
 ===
 
-I have written a python code for the above mentioned idea that is based on a <a link='http://lev4projdissertation.googlecode.com/svn-history/r100/trunk/reading/IJBB-41.pdf'> paper </a> submission by 
+I have written a python code for the above mentioned idea that is based on a <a href='http://lev4projdissertation.googlecode.com/svn-history/r100/trunk/reading/IJBB-41.pdf'> paper </a> submission by 
 
 References 
 <br><sub>
